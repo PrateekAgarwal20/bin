@@ -2,12 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 // TODO: import relevant actions
-// TODO: import relevant components
+import Login from '../components/Login';
 
 let AppContainer = () => {
     return(
         <div>
-            <h1>React App Container</h1>
+            <Login />
         </div>
     );
 };
